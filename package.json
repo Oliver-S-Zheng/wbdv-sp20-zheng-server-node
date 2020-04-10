@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Oliver-S-Zheng/wbdv-sp20-zheng-server-node/issues"
   },
-  "homepage": "https://github.com/Oliver-S-Zheng/wbdv-sp20-zheng-server-node#readme"
+  "homepage": "https://github.com/Oliver-S-Zheng/wbdv-sp20-zheng-server-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
