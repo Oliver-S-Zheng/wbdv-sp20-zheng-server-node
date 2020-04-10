@@ -1,9 +1,6 @@
 const express = require('express')
 const app = express()
 
-require('./controllers/quiz.controller.server')(app)
-require('./controllers/question.controller.server')(app)
-/*
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers',
@@ -13,7 +10,11 @@ app.use(function (req, res, next) {
     next();
 });
 
+require('./controllers/quiz.controller.server')(app)
+require('./controllers/question.controller.server')(app)
 
-*/
+
+
+
 app.listen(3000)
 
